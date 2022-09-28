@@ -1,0 +1,232 @@
+body{
+    font:400 18px/21px 'Rubik', sans-serif;
+    color: #383536;
+}
+.wrap{
+    width: 1240px;
+    margin: 0 auto;
+}
+.pdf-body{
+    display: flex;
+    align-items: stretch;
+    background: url(../images/bg.jpg);
+}
+.pdf-sidebar{
+    flex: none;
+    width: 340px;
+    background: linear-gradient(184.08deg, #F07F1B 7.24%, #D6731C 108.3%);
+    color: #fff;
+    padding: 41px 37px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.pdf-footer{
+    background: #ECECEC;
+    padding: 20px 49px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+}
+.pdf-footer p{
+    max-width: 290px;
+}
+.pdf-footer a{
+    color: #F07F1B;
+    text-decoration: none;
+}
+.pdf-sidebar__photo{
+    margin: 0 0 40px;
+}
+.pdf-sidebar__photo img{
+    display: block;
+    margin: 0 auto;
+    border: #fff 3px solid;
+    border-radius: 50%;
+}
+.pdf-sidebar__title{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin: 0 0 40px;
+}
+.pdf-sidebar__details li{
+    display: flex;
+    margin: 0 0 34px;
+}
+.pdf-sidebar__details svg{
+    flex: none;
+}
+.pdf-sidebar__details-text{
+    flex: 1;
+    padding: 0 0 0 14px;
+}
+.pdf-sidebar__details-text p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.pdf-sidebar__skils{
+    margin: 0 0 30px 12px;
+}
+.pdf-sidebar__skils li{
+    position: relative;
+    padding: 0 0 0 23px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.pdf-sidebar__skils li:after{
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    border: #fff 2px solid;
+    border-radius: 50%;
+    top: 8px;
+    left: 0;
+}
+.pdf-content{
+    padding: 40px 50px 30px 60px;
+}
+h1{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.sex{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F07F1B;
+    margin: 0 0 20px;
+}
+.top-list{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.top-list li{
+    margin: 0 0 10px;
+}
+.summary{
+    border-bottom: 1px solid #F07F1B;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+}
+.summary span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.time-line__body{
+    border-bottom: 1px solid #F07F1B;
+    margin: 0 0 30px;
+}
+.time-line__tipe{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.time-line__tipe svg{
+    margin: 0 18px 0 0;
+}
+.time-line__item{
+    display: flex;
+    margin: 0 0 0 21px;
+}
+.time-line__date{
+    flex: none;
+    width: 232px;
+    padding: 45px 32px 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+}
+.time-line__item:not(:first-child) .time-line__date, .time-line__item:not(:first-child) .time-line__text{
+    padding-top: 0;
+}
+.time-line__item:last-child .time-line__date::before{
+    display: none;
+}
+.time-line__date li{
+    position: relative;
+    margin: 0 0 10px;
+}
+.time-line__date li:first-child:after{
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: #383536;
+    border-radius: 50%;
+    top: 3px;
+    left: -41px;
+}
+.time-line__date::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 101%;
+    background: #383536;
+    top: 0;
+    left: -5px;
+}
+.single-item .time-line__date::before{
+    display: block !important;
+    height: auto;
+    min-height: 50px;
+}
+.time-line__text{
+    padding: 45px 0 20px;
+}
+.time-line__text h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.time-line__text p{
+    margin: 0 0 10px;
+}
+.time-line__text > span{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F07F1B;
+    display: block;
+    margin: 0 0 10px;
+}
+.time-line__text p span{
+    color: #F07F1B;
+}
+.other-table{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.other-table tr:not(:last-child) td{
+    padding-bottom: 30px;
+}
+.other-table td:first-child{
+    width: 247px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
